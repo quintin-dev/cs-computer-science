@@ -1,0 +1,96 @@
+# Computer Science Repository - Obsidian Vault Gitignore
+# Specialized for CS Theory, Algorithms, and Fundamentals
+
+# === OBSIDIAN VAULT FILES ===
+# Obsidian configuration and cache files
+.obsidian/
+.obsidian-git-data
+*.obsidian-git-data
+
+# Obsidian workspace files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugins and themes
+.obsidian/plugins/*/
+.obsidian/themes/*/
+
+# Obsidian cache
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/canvas.json
+
+# Obsidian trash
+.trash/
+
+# === OPERATING SYSTEM FILES ===
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# === IDE & EDITOR FILES ===
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# === COMPUTER SCIENCE SPECIFICS ===
+# Algorithm implementations (if any code files)
+*.class
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# Research and academic files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc
+*.pdf.backup
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Mathematical software
+*.m~
+*.asv
+
+# === TEMPORARY & LOG FILES ===
+*.log
+*.tmp
+*.temp
+*.cache
+logs/
+temp/
+tmp/
+
+# === KEEP IMPORTANT FILES ===
+!.gitignore
+!README.md
+!LICENSE
+!*.md
+!*.tex
+!*.py
+!*.cpp
+!*.java
+!*.c
